@@ -80,12 +80,12 @@ body {
 
 /* THIS AREA IS THE CARD SECTION START */
 
-.container {
+#container {
     /* border: red solid 1px; */
     border-radius: .5rem;
     background-color: #fefae0;
     margin: 1rem 2rem;
-    display: flex;
+    display: inline-flexbox;
     padding: 1.5rem;
 }
 
@@ -95,4 +95,36 @@ body {
     background-color: var(--color-bg);
     color: var(--color-white);
     padding: .5rem;
+    height: 25rem;
+    width: 20rem;
+    margin: 0 1rem;
+    
 }
+
+.cardImg{
+    display: flex;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.cakeName {
+    border-bottom: var(--color-white) solid .2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.cakeDes{
+    display: flex;
+    font-size: auto;
+}
+
+/* CONTACT AREA */
+#contact {
+    border: red solid 1px;
+
+}
+
+
+/* -----TO DO----- */
+/* *FIX FLEXBOX ON CARDS* */
